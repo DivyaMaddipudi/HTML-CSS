@@ -1,7 +1,6 @@
 #wrapper {
-    width: 1250px;
+    width: 1300px;
     height: 1250px;
-    
     overflow: hidden;
 }
 
@@ -12,6 +11,7 @@
     background-color: whitesmoke;
     margin: 20px;
     float: left;
+    box-shadow: 5px 5px 5px 5px #8888;
 }
 
 
@@ -40,7 +40,6 @@ hr {
     width: 90%;
     height: .1px;
     margin-left: 20px;
-
     background-color: #b7d0e2;
     border: 0 none;
 }
@@ -67,9 +66,7 @@ hr {
 .skills, p {
     font-size: 15px;
     font-style: normal;
-    margin-left: 10px;
-    
-    
+    margin-left: 10px;    
 }
 
 .subject {
@@ -109,11 +106,98 @@ hr {
 
 
 #first-right {
-    width: 650px;
-    height: 1200px;
+    width: 800px;
+    height: 590px;
     margin-top: 20px;
     float: left;
     vertical-align: top;
     background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px #8888;
 }
 
+.education, i {
+    color: lightseagreen;
+    margin-right: 10px;
+}
+
+ .education-details {
+    margin-left: 10px;
+    font-size: 20px;
+    
+    font-weight: normal;
+    margin-left: 3px;
+    padding: 10px;
+    
+}
+
+.schools {
+    margin-left: 25px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+.year{
+
+    font-size: 15px;
+    color: lightseagreen;
+
+
+}
+
+.year, i{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+ul, li {
+    color: black;
+
+}
+
+
+
+#second-right {
+    width: 800px;
+    height: 590px;
+    float: left;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px #8888;
+}
+
+
+
+.project, i {
+    color: lightseagreen;
+    margin-right: 10px;
+}
+
+ .project-details {
+    margin-left: 10px;
+    font-size: 20px;
+    
+    font-weight: normal;
+    margin-left: 3px;
+    padding: 10px;
+    
+}
+
+.projectslist {
+    margin-left: 25px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-style: normal;
+}
+
+.explaination {
+
+    margin-left: 10px;
+    font-size: 15px;
+    
+    font-weight: normal;
+    margin-left: 15px;
+    padding: 10px;
+ 
+
+}
