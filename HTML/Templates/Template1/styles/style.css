@@ -155,8 +155,6 @@ ul, li {
 
 }
 
-
-
 #second-right {
     width: 800px;
     height: 590px;
@@ -165,8 +163,6 @@ ul, li {
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px 5px #8888;
 }
-
-
 
 .project, i {
     color: lightseagreen;
@@ -194,10 +190,37 @@ ul, li {
 
     margin-left: 10px;
     font-size: 15px;
-    
+    text-align: justify;
     font-weight: normal;
     margin-left: 15px;
     padding: 10px;
- 
+}
 
+.header {
+    width: 1240px;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: lightseagreen;
+    box-shadow: 5px 5px 5px 5px #8888;
+}
+
+.footer {
+    width: 1270px;
+    height: 70px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: lightseagreen;
+}
+
+.footertext {
+    font-size: 15px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
 }
