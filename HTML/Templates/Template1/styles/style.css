@@ -1,11 +1,19 @@
-#left-column {
-    width: 450px;
+#wrapper {
+    width: 1250px;
     height: 1250px;
-    margin-left: 20px;
-    margin-top: 20px;
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 5px 5px #8888;
+    
+    overflow: hidden;
 }
+
+#left-column {
+
+    width: 450px;
+    height: 1200px;
+    background-color: whitesmoke;
+    margin: 20px;
+    float: left;
+}
+
 
 img {
     width: 450px;
@@ -98,3 +106,14 @@ hr {
     margin-left: 20px;
     padding: 10px;
 }
+
+
+#first-right {
+    width: 650px;
+    height: 1200px;
+    margin-top: 20px;
+    float: left;
+    vertical-align: top;
+    background-color: whitesmoke;
+}
+
