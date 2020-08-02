@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range slider</title>
+
+    <script>
+        function evalSlider() {
+            var sliderValue = document.getElementById('rating').value;
+
+            document.getElementById('sliderVal').innerHTML = sliderValue;
+        }
+
+    </script>
+</head>
+<body>
+    <form action="#" method="post">
+        Rate your Javascript skills (0-100):
+        <input type="range" id="rating" min="0" max="100" onchange="evalSlider()" />
+
+        <output id="sliderVal"></output>
+    </form>
+</body>
+</html>
