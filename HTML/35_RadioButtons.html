@@ -11,7 +11,7 @@
 </head>
 <body>
     <form action="">
-        <table width="505">
+        <table width="550" border="0">
             <tr>
                 <td>Name: </td>
                 <td> <input type="text" name="name" id="name" size="50" maxlength="50" placeholder="Enter your name"> </td>
@@ -73,14 +73,28 @@
                                 <input type="radio" name="subscribe" value="radio" id="subscribe_1"> No</label>
                     </p>
                 </td>
+            </tr>
 
+            <tr>
+                <td height="32" style="vertical-align: text-top;"> Best time to contact me: </td>
+
+                <td> 
+                    <select name="time" id="time">
+                        <option value="morning" id="morning">Morning</option>
+
+                        <option value="afternoon" id="afrernoon">Afternoon</option>
+
+                        <option value="evening" id="evening">Evening</option>
+                    </select>
+
+                </td>
+
+            </tr>
                 <tr>
                     <td> <input type="submit" value="submit" name="submit"> </td>
                     <td>&nbsp;</td>
                 </tr>
-    
 
-            </tr>
 
             
         </table>
