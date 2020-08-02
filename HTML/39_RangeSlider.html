@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range slider and numerical range</title>
+    <script>
+        window.onload = function() {
+            document.getElementById("slider").addEventListener("change", getValue, false);
+        }
+
+        function getValue() {
+            document.getElementById('slideOut').innerHTML = document.getElementById('slider').value;
+        }
+
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+               please choose a value from the range:
+            </td>
+            <td>
+                <input type="range" name="rangeval">
+            </td>
+        </tr>
+    </table>
+
+        <form action="#" method="POST">
+            <input type="range" id="slider" min="0" max="100">
+            <outpt id="slideOut"></output>
+        </form>
+    
+</body>
+</html>
