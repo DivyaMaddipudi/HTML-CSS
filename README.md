@@ -5,3 +5,4 @@
 ### My portfolio
 ![Personal portfolio](https://github.com/DivyaMaddipudi/HTML-CSS/blob/master/HTML/Projects/Project1/images/MyPortfolio.png)
 
+### Code Link: [Code Link](https://github.com/DivyaMaddipudi/HTML-CSS/blob/master/HTML/Projects/Project1/index.html)
