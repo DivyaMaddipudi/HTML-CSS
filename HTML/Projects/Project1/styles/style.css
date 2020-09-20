@@ -216,6 +216,7 @@ ul, li {
     font-size: 30px;
     color: white;
     background-color: lightseagreen;
+    box-shadow: 5px 5px 5px 5px #8888;
 }
 
 .footertext {
