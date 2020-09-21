@@ -1,6 +1,8 @@
 # HTML-CSS
 
 ## Basic personal portfolio created using HTML and CSS 
-### (code link - [portfolio code link] (https://github.com/DivyaMaddipudi/HTML-CSS/tree/master/HTML/Templates/Template1)
 
-![PErsonal portfolio](https://github.com/DivyaMaddipudi/HTML-CSS/blob/master/HTML/Templates/Template1/images/MyPortfolio.png)
+### My portfolio
+![Personal portfolio](https://github.com/DivyaMaddipudi/HTML-CSS/blob/master/HTML/Projects/Project1/images/MyPortfolio.png)
+
+### Code Link: [Code Link](https://github.com/DivyaMaddipudi/HTML-CSS/blob/master/HTML/Projects/Project1/index.html)
